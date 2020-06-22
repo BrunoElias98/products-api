@@ -37,7 +37,7 @@ export default function AddModal({ addProduct, setAddProducts }) {
   return (
     <form>
       <Dialog open onClose={handleClose} aria-labelledby="form-dialog-title">
-        <DialogTitle id="form-dialog-title">Editar Produtos</DialogTitle>
+        <DialogTitle id="form-dialog-title">Adicionar Produtos</DialogTitle>
         <DialogContent>
           <TextField
             type='text'
