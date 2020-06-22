@@ -1,0 +1,18 @@
+body {
+  margin:0; 
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 960px) {
+  .container {
+    width: 960px;
+  }
+}
+
+.MuiFormControl-marginNormal {
+  margin-left: 10px !important;
+}
